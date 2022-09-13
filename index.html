@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/style.css" rel="stylesheet">
+    <script defer src="./assets/script.js"></script>
+
+    <title>Coding Quiz</title>
+</head>
+
+<body>
+    <div id="main-container">
+        <h1>JavaScript Quiz</h1>
+
+        <div id="high-score-list">
+            <div id="form" class="hide">
+                <input type="text" id="username" placeholder="your name here">
+                <button id="high-score">Save Score</button>
+            </div>
+            <ul id="highscore"></ul>
+        </div>
+        <div class="container">
+            <div id="question-container" class="hide">
+                <h3 id="question"></h3>
+                <div id="answer-buttons" class="btn-grid"></div>
+            </div>
+            <div class="controls">
+                <button id="start-btn" class="start-btn btn">Start</button>
+                <button id="next-btn" class="next-btn btn hide">Next</button>
+            </div>
+            <div id="screen">
+                <div id="score">0</div>
+                <div id="timer"><span id="timer-value">0</span> timer</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
